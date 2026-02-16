@@ -1,0 +1,97 @@
+name: society_platform
+description: A production-grade mobile platform for university student professional society
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Design
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  smooth_page_indicator: ^1.1.0
+  flutter_staggered_grid_view: ^0.7.0
+  
+  # State Management
+  provider: ^6.1.1
+  flutter_riverpod: ^2.4.9
+  
+  # Authentication
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.3
+  google_sign_in: ^6.2.1
+  
+  # Database & Storage
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.5.6
+  shared_preferences: ^2.2.2
+  
+  # Notifications
+  firebase_messaging: ^14.7.9
+  flutter_local_notifications: ^16.3.0
+  
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.5.5
+  
+  # URL & Forms
+  url_launcher: ^6.2.2
+  webview_flutter: ^4.4.4
+  
+  # Calendar
+  add_2_calendar: ^3.0.1
+  table_calendar: ^3.0.9
+  
+  # Analytics
+  firebase_analytics: ^10.8.0
+  
+  # Utilities
+  intl: ^0.19.0
+  uuid: ^4.3.3
+  connectivity_plus: ^5.0.2
+  permission_handler: ^11.1.0
+  image_picker: ^1.0.7
+  file_picker: ^6.1.1
+  
+  # HTTP & API
+  http: ^1.2.0
+  dio: ^5.4.0
+  
+  # PDF & Documents
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  
+  # Image Processing
+  flutter_image_compress: ^2.1.0
+  
+  # Animations
+  lottie: ^3.0.0
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#1A1A2E"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
